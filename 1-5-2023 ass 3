@@ -1,0 +1,13 @@
+a=int(input('enter a value:'))
+b=int(input('enter b value:'))
+c=int(input('enter c value:'))
+if a>b:
+    if a>c:
+        print('a is big')
+if b>a:
+    if c>a:
+        print('b is big')
+if c>a:
+    if c>b:
+        print('c is big:')
+        
